@@ -1,0 +1,23 @@
+.css-1q04gal-MuiDateCalendar-root {
+    overflow: hidden;
+    width: 320px;
+    max-height: 334px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 334px;
+    color: white;
+    background: black;
+}
