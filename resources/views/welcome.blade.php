@@ -31,7 +31,6 @@
 </head>
 <body>
     <div id="app"></div>
-@viteReactRefresh
-@vite(['resources/js/app.js'])
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
