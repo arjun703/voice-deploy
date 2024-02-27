@@ -7,7 +7,7 @@ import Survey from "../Assets/Images/Survey.png";
 import { right } from "@popperjs/core";
 import Surveys from "../../pages/Surveys";
 import { useNavigate } from "react-router-dom";
-import LOGO from "../Assets/Images/Logo.png";
+import LOGO from "../Assets/Images/LOGO.png";
 import {
     setRecentquestion_id,
     setCreatedsurvey_id,
