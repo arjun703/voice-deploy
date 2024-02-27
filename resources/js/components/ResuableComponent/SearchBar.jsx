@@ -6,7 +6,7 @@ import Notification from "../Assets/Images/Notification.png";
 import User from "../Assets/Images/User.png";
 import DownArrow from "../Assets/Images/DownArrow.png";
 // import LOGO form "../"
-import LOGO from "../Assets/images/LOGO.png";
+import LOGO from "../Assets/Images/LOGO.png";
 import ToggleNavbar from "./ToggleNavbar";
 import axios from "axios";
 
