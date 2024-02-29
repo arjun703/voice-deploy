@@ -20,6 +20,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 
+
+<script type="module">
+  //import RefreshRuntime from 'http://localhost:5173/@react-refresh'
+  //RefreshRuntime.injectIntoGlobalHook(window)
+  //window.$RefreshReg$ = () => {}
+  //window.$RefreshSig$ = () => (type) => type
+  //window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
  <!-- public sans  -->
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +40,7 @@
 </head>
 <body>
     <div id="app"></div>
-    <script src="{{ asset('js/app.js') }}"></script>
+@vite(['resources/js/app.js'])
+
 </body>
 </html>
