@@ -21,9 +21,8 @@ class AuthController extends Controller
     $passwordColumnName = 'password';
 
     $hashedPassword = md5($requestData['password']);
-
+    
     $user = LoginUser::where($emailColumnName, $requestData['email'])
-        ->where($passwordColumnName, $hashedPassword)
         ->first();
 
     if (!$user) {
